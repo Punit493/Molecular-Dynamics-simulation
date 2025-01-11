@@ -13,7 +13,7 @@ The Lennard-Jones potential is used to compute forces between particles within t
 3. Velocity-Verlet Integration:
 The Velocity-Verlet algorithm is used to iteratively update particle positions and velocities, providing numerical stability. At each step, the kinetic energy (KE) and potential energy (PE) of the system are calculated.
 4. Simulation:
-The simulation runs for a specified number of iterations (ni = 50). It records energy values and updates particle positions and velocities while ensuring energy conservation throughout the process.
+The simulation runs for a specified number of iterations (ni = 1500). It records energy values and updates particle positions and velocities while ensuring energy conservation throughout the process.
 5. Visualization:
 Several visual outputs are generated, including:
 - 3D plots of the initial and final positions of particles.
